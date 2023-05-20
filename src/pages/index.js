@@ -22,7 +22,7 @@ export default function Home() {
         <Layout className='pt-0'>
           <div className='flex items-center justify-between w-ful'>
             <div className='w-5/12'> 
-              <Image src={ProfilePic} alt='Kyle' className='w-full h-auto'/>
+              <Image src={ProfilePic} alt='Kyle Nguyen' className='w-full h-auto'/>
             </div>
             <div className='w-1/2 flex flex-col items-center self-center'>
               <AnimatedText text="Welcome to my HOME" className='!text-6xl !text-left'/>
