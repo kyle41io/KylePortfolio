@@ -6,6 +6,7 @@ import Footer from '@/components/Footer'
 import About from '@/components/About'
 import ToTop from '@/components/ToTop'
 import Experience from '@/components/Activities'
+import Projects from '@/components/Projects'
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -24,6 +25,7 @@ export default function App({ Component, pageProps }) {
       <Component {...pageProps} />
       <About />
       <Experience />
+      <Projects />
       <ToTop />
       <Footer />
     </main>

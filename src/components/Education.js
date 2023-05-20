@@ -9,7 +9,7 @@ const EdDetails = ({type, time, place, info}) => {
   return ( 
     <li ref={ref} className='my-8 first:mt-0 last:mb-0 mx-auto w-[60%] flex flex-col items-center justify-between'>
       <LiIcon reference={ref} />
-      <motion.div initial={{y:50}} whileInView={{y:0}} transition={{duration:0.5, type:"spring"}}>
+      <motion.div initial={{y:50}} whileInView={{y:0}} transition={{duration:1, type:"spring"}}>
         <h3 className='capitalize font-bold text-2xl'>{type}</h3>
         <span className=' font-medium text-dark/75 '>
           {time} | {place}
