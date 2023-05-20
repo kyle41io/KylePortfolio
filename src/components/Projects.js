@@ -17,24 +17,24 @@ const FeaturedProject = ({type, title, summary, img, link, github }) => {
 
   return(
     <div>
-      <article className='w-ful flex items-center justify-between rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12 relative rounded-br-2xl'> 
+      <article className='w-ful flex items-center justify-between rounded-3xl border border-solid border-dark dark:border-light bg-light dark:bg-dark shadow-2xl p-12 relative rounded-br-2xl'> 
 
-        <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark rounded-br-3xl '/>
+        <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark dark:bg-light rounded-br-3xl '/>
 
         <Link href={link} target="_blank" className='ml-7 w-2/5 cursor-pointer overflow-hidden rounded-lg'>
           <MotionImage src={img} alt={title} className='w-full h-auto ' whileHover={{scale:1.05}}/>
         </Link>
 
         <div className='w-1/2 flex flex-col items-start justify-between pl-6'> 
-          <span className='font-medium text-myblue text-xl'>{type}</span>
+          <span className='font-medium text-myblue dark:text-primaryDark dark:text-shadow-DarkShadow text-xl'>{type}</span>
           <Link href={link} target="_blank" className='hover:underline underline-offset-2'>
-          <h2 className='my-2 w-full text-left text-4xl font-bold'>{title}</h2>
+          <h2 className='my-2 w-full text-left text-4xl font-bold text-dark dark:text-light'>{title}</h2>
           </Link>
 
-          <p className='my-2 font-medium text-dark '>{summary}</p>
+          <p className='my-2 font-medium text-dark dark:text-light '>{summary}</p>
           <div className='mt-2 flex items-center'>
             <Link href={github} target="_blank" className='w-10'><GithubIcon /> </Link>
-            <Link href={link} target="_blank" className='ml-4 rounded-lg bg-myblue text-yellow-200 p-1 px-4 text-lg font-semibold'>Visit Project</Link>
+            <Link href={link} target="_blank" className='ml-12 rounded-lg bg-myblue dark:bg-primaryDark text-yellow-200 dark:text-dark/80 p-1 px-4 text-lg font-semibold'>Visit Project</Link>
 
           </div>
         </div>
@@ -45,22 +45,22 @@ const FeaturedProject = ({type, title, summary, img, link, github }) => {
 
 const Project =({type, title, img, link, github}) => {
   return(
-    <article className='w-[90%] flex flex-col items-center justify-between rounded-2xl border border-solid border-dark bg-light p-6 relative shadow-2xl ml-4 rounded-br-2xl'>
+    <article className='w-[90%] flex flex-col items-center justify-between rounded-2xl border border-solid border-dark dark:border-light bg-light dark:bg-dark p-6 relative shadow-2xl ml-4 rounded-br-2xl'>
 
-        <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark rounded-br-3xl'/>
+        <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light rounded-br-3xl'/>
 
         <Link href={link} target="_blank" className='ml-2 w-full cursor-pointer overflow-hidden rounded-lg'>
           <MotionImage src={img} alt={title} className='w-full h-auto' whileHover={{scale:1.05}}/>
         </Link>
 
         <div className='w-full flex flex-col items-start justify-between mt-4'> 
-          <span className='font-medium text-myblue text-xl'>{type}</span>
+          <span className='font-medium text-myblue dark:text-primaryDark dark:text-shadow-DarkShadow text-xl'>{type}</span>
           <Link href={link} target="_blank" className='hover:underline underline-offset-2'>
-          <h2 className='my-2 w-full text-left text-3xl font-bold'>{title}</h2>
+          <h2 className='my-2 w-full text-left text-3xl font-bold text-dark dark:text-light'>{title}</h2>
           </Link>
           <div className='w-full mt-2 flex items-center justify-between'>
             <Link href={github} target="_blank" className='w-10 ml-4'><GithubIcon /> </Link>
-            <Link href={link} target="_blank" className='mx-4 rounded-lg bg-myblue text-yellow-200 p-1 px-4 text-lg font-semibold'>Visit</Link>
+            <Link href={link} target="_blank" className='mx-4 rounded-lg bg-myblue dark:bg-primaryDark text-yellow-200 dark:text-dark/80 p-1 px-4 text-lg font-semibold'>Visit</Link>
 
           </div>
         </div>
@@ -69,7 +69,7 @@ const Project =({type, title, img, link, github}) => {
 }
 const Projects = () => {
   return (
-    <div id='projects' className='w-full mb-16 flex flex-col items-center justify-center'>
+    <div id='projects' className='w-full mb-16 flex flex-col items-center justify-center dark:text-light'>
       <Layout>
         <AnimatedText text="My Stunning Corner" className='mb-20' />
 

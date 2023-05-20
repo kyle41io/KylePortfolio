@@ -10,8 +10,8 @@ const EdDetails = ({type, time, place, info}) => {
     <li ref={ref} className='my-8 first:mt-0 last:mb-0 mx-auto w-[60%] flex flex-col items-center justify-between'>
       <LiIcon reference={ref} />
       <motion.div initial={{y:50}} whileInView={{y:0}} transition={{duration:1, type:"spring"}}>
-        <h3 className='capitalize font-bold text-2xl'>{type}</h3>
-        <span className=' font-medium text-dark/75 '>
+        <h3 className='capitalize font-bold text-2xl text-dark dark:text-light'>{type}</h3>
+        <span className=' font-medium text-dark/75 dark:text-light'>
           {time} | {place}
         </span>
         <p className='font-medium w-full'>{info}</p>
@@ -33,7 +33,7 @@ const Education = () => {
   return (
 
     <div  className='my-64'>
-      <h2 className='font-bold text-8xl mb-32 w-full text-center'>Education</h2>
+      <h2 className='font-bold text-8xl mb-32 w-full text-center text-dark dark:text-light'>Education</h2>
 
       <div ref={ref} className='w-[75%] mx-auto relative'>
       

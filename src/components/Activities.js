@@ -11,12 +11,12 @@ const Details = ({position, company, companyLink, time, address, work}) => {
     <li ref={ref} className='my-8 first:mt-0 last:mb-0 mx-auto w-[60%] flex flex-col items-center justify-between'>
       <LiIcon reference={ref} />
       <motion.div initial={{y:50}} whileInView={{y:0}} transition={{duration:0.5, type:"spring"}}>
-        <h3 className='capitalize font-bold text-2xl'>{position}&nbsp;<a href={companyLink}
-        target="_blank" className='text-myblue capitalize'>@{company}</a></h3>
-        <span className='capitalize font-medium text-dark/75 '>
+        <h3 className='capitalize font-bold text-2xl text-dark dark:text-light'>{position}&nbsp;<a href={companyLink}
+        target="_blank" className='text-myblue dark:text-primaryDark dark:text-shadow-DarkShadow capitalize'>@{company}</a></h3>
+        <span className='capitalize font-medium text-dark/75 dark:text-light/90 '>
           {time} | {address}
         </span>
-        <p className='font-medium w-full'>{work}</p>
+        <p className='font-medium w-full text-dark dark:text-light'>{work}</p>
       </motion.div>
     </li>)
  
@@ -34,7 +34,7 @@ const Experience = () => {
   return (
     <>
     <div id='activities' className='my-64'>
-      <h2 className='font-bold text-8xl mb-32 w-full text-center'>Experience</h2>
+      <h2 className='font-bold text-8xl mb-32 w-full text-center text-dark dark:text-light'>Experience</h2>
 
       <div ref={ref} className='w-[75%] mx-auto relative'>
       
