@@ -11,7 +11,7 @@ const Skill = ({name, x, y}) => {
 const Skills = () => {
   return (
     <>
-    <h2 className=' font-bold text-6xl mt-64 w-full text-center text-dark/80'>Skills</h2>
+    <h2 className=' font-bold text-8xl mt-64 w-full text-center text-dark/90'>Skills</h2>
     <div className='w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight'>
       <motion.div className='flex items-center justify-center rounded-full font-semibold bg-[#1E3A8A] text-yellow-200 text-xl p-4 shadow-dark cursor-pointer ' whileHover={{ backgroundColor:["#1E3A8A", "rgba(131,58,180,1)","rgba(253,29,29,1)","rgba(252,176,69,1)","rgba(131,58,180,1)", "#1E3A8A"], transition:{duration: 1.5, repeat: Infinity}}}
       >Developer</motion.div>

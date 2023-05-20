@@ -33,7 +33,7 @@ export default function Home() {
                 <MotionLink href="/dummy.pdf" target={'_blank'} className='flex items-center bg-[#1E3A8A] text-yellow-200 p-2 px-4 rounded-lg text-lg font-semibold hover:bg-light'
                 whileHover={{ backgroundColor:["#1E3A8A", "rgba(131,58,180,1)","rgba(253,29,29,1)","rgba(252,176,69,1)","rgba(131,58,180,1)", "#1E3A8A"], transition:{duration: 1.5, repeat: Infinity}}} download={true}>
                   My CV 
-                <LinkArrow className='w-[20px] ml-1.5' />
+                <LinkArrow className='w-4 ml-1.5' />
                 </MotionLink>
                 <MotionLink href="mailto:vankien41hust@gmail.com" target={'_blank'} className='p-1 px-3 ml-4 text-lg  font-medium capitalize text-light rounded-2xl bg-dark hover:underline' whileTap={{scale:0.9}} whileHover={{y:-3}}>Contact</MotionLink>
               </div>

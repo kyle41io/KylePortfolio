@@ -38,7 +38,7 @@ const About = () => {
         <AnimatedText text="To Infinity And Beyond!" className='mb-16'/>
         <div className='grid w-full grid-cols-8 gap-16 '>
           <div className='col-span-3 flex flex-col items-start justify-start'>
-            <h2 className='mb-4 text-lg font-bold uppercase text-dark/70'>Biography</h2>
+            <h2 className='mb-4 text-lg font-bold uppercase text-myblue/90'>Biography</h2>
             <p className='font-medium'>- Hi, I&#39;m Kyle Nguyen, a fresher web developer. While I don&#39;t have a lot of experience yet, I am always eager to learn and grow in my field. I have worked on a few projects and have enjoyed the challenges that come with them.</p>
             <p className='font-medium my-4'>
             - Learning is a key part of my development as a web developer. I am constantly seeking out new opportunities to enhance my skills and knowledge. I am aware that there is still a lot for me to learn, and I am willing to put in the time and effort to keep improving.

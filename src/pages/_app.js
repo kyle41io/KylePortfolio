@@ -5,7 +5,7 @@ import NavBar from '@/components/NavBar'
 import Footer from '@/components/Footer'
 import About from '@/components/About'
 import ToTop from '@/components/ToTop'
-import Experience from '@/components/Experience'
+import Experience from '@/components/Activities'
 
 const montserrat = Montserrat({
   subsets: ["latin"],
