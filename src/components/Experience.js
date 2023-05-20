@@ -1,8 +1,15 @@
 import React from 'react'
+
 const Details = ({position, company, companyLink, time, address, work}) => {
   return <li>
       <div>
-        <h3>{position}&nbsp;<a href=''></a></h3>
+        <h3>{position}&nbsp;<a href={companyLink}>@{company}</a></h3>
+        <span>
+          {time} | {address}
+        </span>
+        <p>
+          {work}
+        </p>
       </div>
   </li>
 }
@@ -15,9 +22,8 @@ const Experience = () => {
       <div className='w-[75%] mx-auto relative  '>
 
         <ul>
-          <li>
-            
-          </li>
+          <Details position="Software Engineer Intern" company="KPIM" companyLink="https://kpim.vn" time="3/2023-Present" address="Tay Ho, Ha Noi"
+          work="Participate in the company's intern training program. Analyze system design and build projects based on my own ideas. Access to Microsoft's Power Apps low-code app building system." />
         </ul>
 
       </div>
