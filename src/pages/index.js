@@ -6,7 +6,6 @@ import ProfilePic from "../../public/images/profile/developer-pic-1.png";
 import AnimatedText from '@/components/AnimatedText';
 import { motion } from 'framer-motion';
 import { LinkArrow } from '@/components/Icons';
-import ToTop from '@/components/ToTop';
 import lightBuld from "../../public/images/svgs/miscellaneous_icons_1.svg"
 
 const MotionLink = motion(Link);
@@ -22,16 +21,18 @@ export default function Home() {
         <Layout className='pt-0'>
           <div className='flex items-center justify-between w-ful'>
             <div className='w-5/12'> 
-              <Image src={ProfilePic} alt='Kyle Nguyen' className='w-full h-auto'/>
+              <Image src={ProfilePic} alt='Kyle Nguyen' className='w-full h-auto'
+              priority sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 50vw"/>
             </div>
             <div className='w-1/2 flex flex-col items-center self-center'>
-              <AnimatedText text="Welcome to my HOME" className='!text-6xl !text-left'/>
+              <AnimatedText text="Welcome to my HOME" className='!text-6xl !text-left 
+              xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl'/>
               <p className='my-4 text-base font-medium '>
               As a fresher in web development, I&#39;m passionate about creating dynamic and user-friendly websites. From front-end design to back-end functionality. Explore my portfolio to see my latest projects and skills in action.
               </p>
               <div className='flex items-center self-start mt-2'>
-                <MotionLink href="/dummy.pdf" target={'_blank'} className='flex items-center bg-[#1E3A8A] dark:bg-primaryDark text-yellow-200 dark:text-dark/80 p-2 px-4 rounded-lg text-lg font-semibold hover:bg-light'
-                whileHover={{ backgroundColor:["#58E6D9", "rgba(131,58,180,1)","rgba(253,29,29,1)","rgba(252,176,69,1)","rgba(131,58,180,1)", "#58E6D9"], transition:{duration: 1.5, repeat: Infinity}}} download={true}>
+                <MotionLink href="/dummy.pdf" target={'_blank'} className='flex items-center bg-[#1E3A8A] text-yellow-200  p-2 px-4 rounded-lg text-lg font-semibold hover:bg-light'
+                whileHover={{ backgroundColor:["#1E3A8A", "rgba(131,58,180,1)","rgba(253,29,29,1)","rgba(252,176,69,1)","rgba(131,58,180,1)", "#1E3A8A"], transition:{duration: 1.5, repeat: Infinity}}} download={true}>
                   My CV 
                 <LinkArrow className='!w-4 ml-1.5' />
                 </MotionLink>
