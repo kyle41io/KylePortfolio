@@ -41,8 +41,8 @@ export default function Home() {
           </div>
           </div>
         </Layout>
-        <div className='absolute right-60 bottom-8 inline-block w-24'>
-          <Image src={lightBuld} alt='Kyle' className='w-full h-auto'/>
+        <div className='absolute right-40 bottom-8 inline-block w-24'>
+          <Image src={lightBuld} alt='Kyle' className='w-full h-auto lg:hidden'/>
         </div>
         
       </main>
