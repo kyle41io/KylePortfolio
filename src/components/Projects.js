@@ -21,7 +21,7 @@ const FeaturedProject = ({type, title, summary, img, link, github }) => {
     <div>
       <article className='w-full flex items-center justify-between rounded-3xl border border-solid border-dark dark:border-light bg-light dark:bg-dark shadow-2xl p-12 relative rounded-br-2xl'> 
 
-        <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark dark:bg-light rounded-br-3xl '/>
+        <div className='absolute top-0 -right-3 -z-10 w-[100.5%] h-[103%] rounded-[2.5rem] bg-dark dark:bg-light rounded-br-3xl '/>
 
         <a href={link} target="_blank" className='ml-7 w-2/5 cursor-pointer overflow-hidden rounded-lg'>
           <MotionImage src={img} alt={title} className='w-full h-auto' whileHover={{scale:1.05}}

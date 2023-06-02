@@ -33,7 +33,7 @@ const AnimatedNumbers = ({value}) => {
 
 const About = () => {
   return (
-    <div id='about' className='flex w-full felx-col items-center justify-center'>
+    <div id='about' className='flex w-full flex-col items-center justify-center'>
       <Layout className='pt-16'>
         <AnimatedText text="To Infinity And Beyond!" className='mb-16'/>
         <div className='grid w-full grid-cols-8 gap-16 '>
