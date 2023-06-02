@@ -19,19 +19,20 @@ const FeaturedProject = ({type, title, summary, img, link, github }) => {
 
   return(
     <div>
-      <article className='w-full flex items-center justify-between rounded-3xl border border-solid border-dark dark:border-light bg-light dark:bg-dark shadow-2xl p-12 relative rounded-br-2xl'> 
+      <article className='w-full md:w-[90%] flex items-center justify-between rounded-3xl border border-solid border-dark dark:border-light bg-light dark:bg-dark shadow-2xl p-12 relative rounded-br-2xl
+      lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4'> 
 
         <div className='absolute top-0 -right-3 -z-10 w-[100.5%] h-[103%] rounded-[2.5rem] bg-dark dark:bg-light rounded-br-3xl '/>
 
-        <a href={link} target="_blank" className='ml-7 w-2/5 cursor-pointer overflow-hidden rounded-lg'>
+        <a href={link} target="_blank" className='ml-7 lg:ml-5 sm:ml-2 w-2/5 lg:w-full cursor-pointer overflow-hidden rounded-lg'>
           <MotionImage src={img} alt={title} className='w-full h-auto' whileHover={{scale:1.05}}
           priority sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 50vw"/>
         </a>
 
-        <div className='w-1/2 flex flex-col items-start justify-between pl-6'> 
-          <span className='font-medium text-myblue dark:text-primaryDark dark:text-shadow-DarkShadow text-xl'>{type}</span>
+        <div className='w-1/2 lg:w-full flex flex-col items-start justify-between pl-6'> 
+          <span className='font-medium text-myblue dark:text-primaryDark dark:text-shadow-DarkShadow text-xl md:text-base lg:pt-4 md:mt-2'>{type}</span>
           <a href={link} target="_blank" className='hover:underline underline-offset-2'>
-          <h2 className='my-2 w-full text-left text-4xl font-bold text-dark dark:text-light'>{title}</h2>
+          <h2 className='my-2 w-full text-left text-4xl md:text-3xl sm:text-2xl font-bold text-dark dark:text-light'>{title}</h2>
           </a>
 
           <p className='my-2 font-medium text-dark dark:text-light '>{summary}</p>
@@ -48,7 +49,7 @@ const FeaturedProject = ({type, title, summary, img, link, github }) => {
 
 const Project =({type, title, img, link, github}) => {
   return(
-    <article className='w-[90%] flex flex-col items-center justify-between rounded-2xl border border-solid border-dark dark:border-light bg-light dark:bg-dark p-6 relative shadow-2xl ml-4 rounded-br-2xl'>
+    <article className='w-[90%] flex flex-col items-center justify-between rounded-2xl border border-solid border-dark dark:border-light bg-light dark:bg-dark p-6 relative shadow-2xl ml-5 sm:ml-2 rounded-br-2xl'>
 
         <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light rounded-br-3xl'/>
 
@@ -76,18 +77,18 @@ const Projects = () => {
       <Layout>
         <AnimatedText text="My Stunning Corner" className='mb-20' />
 
-        <div className='grid grid-cols-12 gap-24 gap-y-32 '>
+        <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0 '>
 
           <div className='col-span-12'>
             <FeaturedProject title="Entrance Test App by Power Apps" summary="An application so that candidates can check their competencies when applying to the company. Done using Microsoft's low-code system - Power Apps. 
             ( Admin: kien@gmail.com Password: kpim0 )" link="https://apps.powerapps.com/play/e/default-41ab42a9-381b-48cf-8a85-720464922976/a/24f9b052-e11b-4c73-aa0b-89b00d4c3470?tenantId=41ab42a9-381b-48cf-8a85-720464922976" type="Featured Project" img={project1} github="#" />
           </div>
-          <div className='col-span-6'>
+          <div className='col-span-6 md:col-span-12'>
 
             <Project title="First blog" link="https://kyle41io.github.io/1stBlog/" type="Learning Project" img={project2} github="https://github.com/kyle41io/1stBlog" />
 
           </div>
-          <div className='col-span-6'>
+          <div className='col-span-6 md:col-span-12'>
             <Project title="Basic Audio"  link="https://kyleaudio.vercel.app/" type="Learning Project" img={project3} github="https://github.com/kyle41io/Kyle-Audio" />
 
           </div>

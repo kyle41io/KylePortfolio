@@ -11,7 +11,7 @@ const LiIcon = ({reference}) => {
     }
   )
   return (
-    <figure className='absolute left-0 stroke-dark dark:stroke-primaryDark'>
+    <figure className='absolute left-0 stroke-dark dark:stroke-primaryDark md:-ml-5 sm:-ml-10'>
       <svg className='-rotate-90' width="75" height="75" viewBox='0 0 100 100 '>
         <circle cx="75" cy="50" r="20" className='stroke-myblue dark:stroke-primaryDark stroke-1 fill-none' />
         <motion.circle cx="75" cy="50" r="20" className=' stroke-[5px] fill-light dark:fill-dark' 
