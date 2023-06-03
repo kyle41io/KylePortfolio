@@ -54,17 +54,17 @@ const About = () => {
           </div>
           <div className='col-span-2 xl:col-span-8 flex flex-col xl:flex-row  items-end justify-between'>
             <div className='flex flex-col items-end justify-center'>
-              <span className='inline-block text-7xl font-bold text-dark dark:text-light'>
+              <span className='inline-block text-7xl md:text-6xl sm:text-4xl font-bold text-dark dark:text-light'>
                 <AnimatedNumbers  value={50}/>+</span>
               <h2 className='text-xl font-medium text-dark/75 dark:text-light/90'>Satisfied Clients</h2>
             </div>
             <div className='flex flex-col items-end justify-center'>
-              <span className='inline-block text-7xl font-bold text-dark dark:text-light'>
+              <span className='inline-block text-7xl md:text-6xl sm:text-4xl font-bold text-dark dark:text-light'>
               <AnimatedNumbers  value={10}/>+</span>
               <h2 className='text-xl font-medium text-dark/75 dark:text-light/90'>Projects Completed</h2>
             </div>
             <div className='flex flex-col items-end justify-center'>
-              <span className='inline-block text-7xl font-bold text-dark dark:text-light'>
+              <span className='inline-block text-7xl md:text-6xl sm:text-4xl font-bold text-dark dark:text-light'>
               <AnimatedNumbers  value={1}/>+</span>
               <h2 className='text-xl font-medium text-dark/75 dark:text-light/90'>Year Of Experience</h2>
             </div>
