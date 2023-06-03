@@ -38,7 +38,7 @@ const FeaturedProject = ({type, title, summary, img, link, github }) => {
           <p className='my-2 font-medium text-dark dark:text-light '>{summary}</p>
           <div className='mt-2 flex items-center'>
             <a href={github} target="_blank" className='w-10'><GithubIcon /> </a>
-            <a href={link} target="_blank" className='ml-12 rounded-lg bg-myblue dark:bg-primaryDark text-yellow-200 dark:text-dark/80 p-1 sm:p-0.5 px-4 text-lg sm:text-base font-semibold'>Visit Project</a>
+            <a href={link} target="_blank" className='ml-12 rounded-lg bg-myblue dark:bg-primaryDark text-yellow-200 dark:text-dark/80 p-1 sm:px-2 px-4 text-lg sm:text-base font-semibold'>Visit Project</a>
 
           </div>
         </div>
@@ -64,7 +64,7 @@ const Project =({type, title, img, link, github}) => {
           </a>
           <div className='w-full mt-2 flex items-center justify-between'>
             <a href={github} target="_blank" className='w-10 ml-4'><GithubIcon /> </a>
-            <a href={link} target="_blank" className='mx-4 rounded-lg bg-myblue dark:bg-primaryDark text-yellow-200 dark:text-dark/80 p-1 sm:p-0.5 px-4 text-lg sm:text-base font-semibold'>Visit</a>
+            <a href={link} target="_blank" className='mx-4 rounded-lg bg-myblue dark:bg-primaryDark text-yellow-200 dark:text-dark/80 p-1 sm:px-2 px-4 text-lg sm:text-base font-semibold'>Visit</a>
 
           </div>
         </div>
