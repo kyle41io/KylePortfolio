@@ -54,7 +54,8 @@ const NavBar = () => {
   } 
 
   return (
-    <header className='z-50 fixed w-full px-32 md:px-16 sm:px-8 py-4 font-medium flex items-center justify-between dark:text-light bg-light dark:bg-dark border-b-2 md:bg-transparent md:border-none'>
+    <header className='z-10 fixed w-full px-32 md:px-16 sm:px-8 py-4 font-medium flex items-center justify-between dark:text-light bg-light dark:bg-dark border-b-2 md:bg-light/70
+    md:dark:bg-dark/70 lg:border-none'>
     
     <button className=' flex-col justify-center items-center hidden lg:flex ' onClick={handleClick}>
       <span className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm  
