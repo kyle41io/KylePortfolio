@@ -12,13 +12,13 @@ const CustomLink = ({className="", href="", title }) => {
   const router = useRouter();
 
   return(
-    <Link href={href} className={`${className} relative group`} >
+    <a href={href} className={`${className} relative group`} >
       {title}
       <span className={`h-[1px] inline-block w-0 bg-dark absolute left-0 -bottom-[2px] group-hover:w-full transition-[width] ease duration-300 dark:bg-light
       ${router.asPath === href ? 'w-full' : 'w-0'}`}>
         &nbsp;
       </span>
-    </Link>
+    </a>
   )
 }
 
@@ -54,7 +54,7 @@ const NavBar = () => {
   } 
 
   return (
-    <header className=' relative w-full px-32 md:px-16 py-8 font-medium flex items-center justify-between dark:text-light'>
+    <header className='z-50 fixed w-full px-32 md:px-16 sm:px-8 py-4 font-medium flex items-center justify-between dark:text-light bg-light dark:bg-dark border-b-2 md:bg-transparent md:border-none'>
     
     <button className=' flex-col justify-center items-center hidden lg:flex ' onClick={handleClick}>
       <span className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm  
@@ -68,7 +68,7 @@ const NavBar = () => {
       
       <div className='w-full flex justify-between items-center lg:hidden'>
         <nav>
-        <CustomLink href="/" title="Home" className='mr-3'/>
+        <CustomLink href="#" title="Home" className='mr-3'/>
         <CustomLink href="#about" title="About" className='mx-3'/>
         <CustomLink href="#activities" title="Activities" className='mx-3'/>
         <CustomLink href="#projects" title="Projects" className='ml-3'/>
