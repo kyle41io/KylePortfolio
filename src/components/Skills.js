@@ -18,8 +18,8 @@ const Skills = () => {
       sm:dark:bg-circularDarkSm'>
         <motion.div className='flex items-center justify-center rounded-full font-semibold bg-[#1E3A8A]  text-yellow-200 text-xl sm:text-base p-4 sm:p-2 shadow-dark dark:shadow-light cursor-pointer ' whileHover={{ backgroundColor:["#1E3A8A", "rgba(131,58,180,1)","rgba(253,29,29,1)","rgba(252,176,69,1)","rgba(131,58,180,1)", "#1E3A8A"], transition:{duration: 1.5, repeat: Infinity}}}
         >Developer</motion.div>
-        <Skill name="CSS" x="-8vw" y="-12vw" />
-        <Skill name="HTML" x="-21vw" y="0vw" />
+        <Skill name="UnitTest" x="-8vw" y="-11vw" />
+        <Skill name="Bootstrap" x="-21vw" y="0vw" />
         <Skill name="JavaScript" x="14vw" y="2vw" />
         <Skill name="ReactJS" x="1vw" y="12.5vw" />
         <Skill name="NextJS" x="-24vw" y="-15vw" />

@@ -4,7 +4,7 @@ import AnimatedText from './AnimatedText'
 import { Link } from 'react-scroll'
 import Image from 'next/image'
 import { GithubIcon } from './Icons'
-import project1 from '../../public/images/projects/EntranceTest_Pj.png'
+import project1 from '../../public/images/projects/EntranceTest_Pj.jpeg'
 import project2 from '../../public/images/projects/First_blog.png'
 import project3 from '../../public/images/projects/Kyle_Audio.png'
 import project4 from '../../public/images/projects/MovieAPI.png'
@@ -80,8 +80,8 @@ const Projects = () => {
         <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0 '>
 
           <div className='col-span-12'>
-            <FeaturedProject title="Entrance Test App by Power Apps" summary="An application so that candidates can check their competencies when applying to the company. Done using Microsoft's low-code system - Power Apps. 
-            ( Admin: kien@gmail.com Password: kpim0 )" link="https://apps.powerapps.com/play/e/default-41ab42a9-381b-48cf-8a85-720464922976/a/24f9b052-e11b-4c73-aa0b-89b00d4c3470?tenantId=41ab42a9-381b-48cf-8a85-720464922976" type="Featured Project" img={project1} github="#" />
+            <FeaturedProject title="Entrance Test" summary="An application so that candidates can check their competencies when applying to the company. Done using NextJS, EFFCore, PostgreSQL,... 
+            ( Admin: kien@gmail.com Password: Kien@123 )" link="#" type="Featured Project" img={project1} github="https://github.com/kyle41io/EntranceTest_FE" />
           </div>
           <div className='col-span-6 md:col-span-12'>
 

@@ -42,8 +42,8 @@ const Experience = () => {
         {/* <motion.div style={{scaleY: scrollYProgress}} className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top'/> */}
 
         <ul className='w-full flex flex-col items-start justify-between ml-10 md:ml-5 sm:ml-2'>
-          <Details position="Software Engineer Intern" company="KPIM" companyLink="https://kpim.vn"  time="3/2023 - Present" address="Tay Ho, Ha Noi"
-          work="Participate in the company's intern training program. Analyze system design and build projects based on my own ideas. Access to Microsoft's Power Apps low-code app building system." />
+          <Details position="Software Engineer" company="KPIM" companyLink="https://kpim.vn"  time="3/2023 - Present" address="Tay Ho, Ha Noi"
+          work="The begining period, I participated in the company's intern training program, analyzed system design and built my own idea projects based on Power Apps (MS low-code app building system). Then I joined to contribute to the company product. I was responsible for building RestFul API and Unit testing for the back-end of the E-learning system" />
         </ul>        
 
       </div>

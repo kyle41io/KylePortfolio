@@ -31,7 +31,7 @@ export default function Home() {
               As a fresher in web development, I&#39;m passionate about creating dynamic and user-friendly websites. From front-end design to back-end functionality. Explore my portfolio to see my latest projects and skills in action.
               </p>
               <div className='flex items-center self-start mt-2 md:self-center'>
-                <MotionLink href="/CV_Kyle_June2023.pdf" target={'_blank'} className='flex items-center bg-[#1E3A8A] text-yellow-200  p-2 px-4 rounded-lg text-lg font-semibold hover:bg-light'
+                <MotionLink href="/Kyle-CV-Sep.pdf" target={'_blank'} className='flex items-center bg-[#1E3A8A] text-yellow-200  p-2 px-4 rounded-lg text-lg font-semibold hover:bg-light'
                 whileHover={{ backgroundColor:["#1E3A8A", "rgba(131,58,180,1)","rgba(253,29,29,1)","rgba(252,176,69,1)","rgba(131,58,180,1)", "#1E3A8A"], transition:{duration: 1.5, repeat: Infinity}}} download={true}>
                   My CV 
                 <LinkArrow className='!w-4 ml-1.5' />
