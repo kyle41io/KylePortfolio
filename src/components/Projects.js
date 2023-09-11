@@ -81,7 +81,7 @@ const Projects = () => {
 
           <div className='col-span-12'>
             <FeaturedProject title="Entrance Test" summary="An application so that candidates can check their competencies when applying to the company. Done using NextJS, EFFCore, PostgreSQL,... 
-            ( Admin: kien@gmail.com Password: Kien@123 )" link="#" type="Featured Project" img={project1} github="https://github.com/kyle41io/EntranceTest_FE" />
+            ( Admin: kien@gmail.com Password: Kien@123 )" link="/" type="Featured Project" img={project1} github="https://github.com/kyle41io/EntranceTest_FE" />
           </div>
           <div className='col-span-6 md:col-span-12'>
 

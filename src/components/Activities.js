@@ -43,7 +43,8 @@ const Experience = () => {
 
         <ul className='w-full flex flex-col items-start justify-between ml-10 md:ml-5 sm:ml-2'>
           <Details position="Software Engineer" company="KPIM" companyLink="https://kpim.vn"  time="3/2023 - Present" address="Tay Ho, Ha Noi"
-          work="The begining period, I participated in the company's intern training program, analyzed system design and built my own idea projects based on Power Apps (MS low-code app building system). Then I joined to contribute to the company product. I was responsible for building RestFul API and Unit testing for the back-end of the E-learning system" />
+          work="The begining period, I participated in the company's intern training program, analyzed system design and built my own idea projects based on 2 development kinds (MS low-code Power Apps and code). 
+           Then I joined to contribute to the company product. I was responsible for building RestFul API and Unit testing for the back-end of the E-learning system" />
         </ul>        
 
       </div>
