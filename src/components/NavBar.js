@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import Logo from "@/components/Logo";
 import { useRouter } from "next/router";
 import {
@@ -10,7 +9,7 @@ import {
   MoonIcon,
 } from "./Icons";
 import { motion } from "framer-motion";
-import useThemeSwitcher from "./hooks/useThemeSwitcher";
+import useThemeSwitcher from "../hooks/useThemeSwitcher";
 import { useState } from "react";
 
 const CustomLink = ({ className = "", href = "", title }) => {
