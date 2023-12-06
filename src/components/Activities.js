@@ -49,10 +49,10 @@ const Experience = () => {
       <div id="activities" className="my-64">
         <AnimatedText text="Experience" className="mb-16" />
         <div ref={ref} className="w-[75%] mx-auto relative">
-          <motion.div
+          {/* <motion.div
             style={{ scaleY: scrollYProgress }}
-            className="absolute left-9 top-0 w-[4px] h-full bg-neutral-600 origin-top"
-          />
+            className="absolute -left-1 top-0 w-[4px] h-full bg-neutral-600 origin-top"
+          /> */}
 
           <ul className="w-full flex flex-col items-start justify-between ml-10 md:ml-5 sm:ml-2">
             <Details
