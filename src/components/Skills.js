@@ -1,17 +1,26 @@
 import React from "react";
 import { motion } from "framer-motion";
+import ReactLogo from "./icons/ReactLogo";
+import TailwindLogo from "./icons/TailwindLogo";
+import DotNetLogo from "./icons/DotNetLogo";
+import GitLogo from "./icons/GitLogo";
+import PostgreLogo from "./icons/PostgreLogo";
+import VueLogo from "./icons/VueLogo";
+import NextLogo from "./icons/NextLogo";
+import TypeLogo from "./icons/TypeLogo";
+import FirebaseLogo from "./icons/FirebaseLogo";
 
-const Skill = ({ name, x, y }) => {
+const Skill = ({ logo, name, x, y }) => {
   return (
     <motion.div
-      className="flex items-center justify-center rounded-full font-semibold bg-dark dark:bg-light text-light dark:text-dark shadow-dark cursor-pointer absolute py-3 px-6 md:bg-transparent md:dark:bg-transparent md:text-dark md:dark:text-light md:text-sm"
+      className="flex items-center justify-center rounded-full font-semibold bg-slate-800 gap-2 dark:bg-light text-light dark:text-dark shadow-dark cursor-pointer absolute py-3 px-6 md:bg-transparent md:dark:bg-transparent md:text-dark md:dark:text-light md:text-sm"
       whileHover={{ scale: 1.1 }}
       initial={{ x: 0, y: 0 }}
       whileInView={{ x: x, y: y }}
       transition={{ duration: 1 }}
       viewport={{ once: true }}
-    > 
-      {name}
+    >
+      {logo} {name}
     </motion.div>
   );
 };
@@ -44,17 +53,17 @@ const Skills = () => {
         >
           Developer
         </motion.div>
-        <Skill name="React Native" x="-8vw" y="-11vw" />
-        <Skill name="Git" x="-20vw" y="0vw" />
-        <Skill name="JavaScript" x="14vw" y="2vw" />
-        <Skill name="ReactJS" x="1vw" y="12.5vw" />
-        <Skill name="NextJS" x="-24vw" y="-15vw" />
-        <Skill name="Figma" x="20vw" y="-12vw" />
-        <Skill name="TailwindCSS" x="-28vw" y="12vw" />
-        <Skill name="Java" x="35vw" y="-5vw" />
-        <Skill name="PostgreSQL" x="22vw" y="16vw" />
-        <Skill name="VueJS" x="2vw" y="-17vw" />
-        <Skill name=".NET" x="-10vw" y="20vw" />
+        <Skill logo={<ReactLogo />} name="React Native" x="-8vw" y="-11vw" />
+        <Skill logo={<GitLogo />} name="Git" x="-20vw" y="0vw" />
+        <Skill name="Redux/Vuex" x="14vw" y="2vw" />
+        <Skill logo={<ReactLogo />} name="ReactJS" x="1vw" y="12.5vw" />
+        <Skill logo={<NextLogo />} name="NextJS" x="-24vw" y="-15vw" />
+        <Skill logo={<FirebaseLogo />} name="Firebase" x="20vw" y="-12vw" />
+        <Skill logo={<TailwindLogo />} name="TailwindCSS" x="-28vw" y="12vw" />
+        <Skill logo={<TypeLogo />} name="TypeScript" x="35vw" y="-5vw" />
+        <Skill logo={<PostgreLogo />} name="PostgreSQL" x="22vw" y="16vw" />
+        <Skill logo={<VueLogo />} name="VueJS" x="2vw" y="-17vw" />
+        <Skill logo={<DotNetLogo />} name=".NET" x="-10vw" y="20vw" />
       </div>
     </>
   );

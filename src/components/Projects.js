@@ -133,7 +133,7 @@ const Projects = () => {
             <FeaturedProject
               title="Entrance Test"
               summary="An application so that candidates can check their competencies when applying to the company. Done using NextJS, EFFCore, PostgreSQL,... 
-            ( Admin: kien@gmail.com Password: Kien@123 )"
+            ( Admin: kien@gmail.com Password: Kien@123 )."
               link="/"
               type="Featured Project"
               img={project1}
