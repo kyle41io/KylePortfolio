@@ -68,9 +68,9 @@ const Experience = () => {
               position="Front-end Developer"
               company="MOR Software"
               companyLink="https://morsoftware.com/"
-              time="9/2023 - Present"
+              time="9/2023 - 12/2023"
               address="Nam Tu Liem, Ha Noi"
-              work="Learing deeply about JavaScript, React and NextJS. Join the company projects with the front-end developer position..."
+              work="Learing deeply about JavaScript, React and framework: NextJS, Vue. Join the company projects with the front-end developer position"
             />
           </ul>
         </div>
