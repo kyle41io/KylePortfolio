@@ -131,13 +131,12 @@ const Projects = () => {
         <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0 ">
           <div className="col-span-12">
             <FeaturedProject
-              title="Entrance Test"
-              summary="An application so that candidates can check their competencies when applying to the company. Done using NextJS, EFFCore, PostgreSQL,... 
-            ( Admin: kien@gmail.com Password: Kien@123 )."
-              link="/"
-              type="Featured Project"
-              img={project1}
-              github="https://github.com/kyle41io/EntranceTest_FE"
+              title="Stream Music"
+              summary="A full stack project, work with my partner. But at the final period, the back-end developer was not finish the job so for now just review the front-end please. This help to understanding the working flow of a fullstack project. Using NextJS 13, next-intl, Firebase,..."
+              link="https://stream-music-fe-dolphin.vercel.app/"
+              type="Group Project"
+              img={project4}
+              github="https://github.com/kyle41io/StreamMusicFE"
             />
           </div>
           <div className="col-span-6 md:col-span-12">
@@ -160,12 +159,13 @@ const Projects = () => {
           </div>
           <div className="col-span-12">
             <FeaturedProject
-              title="Stream Music"
-              summary="A full stack project, work with my partner. But at the final period, the back-end developer was not finish the job so for now just review the front-end please. This help to understanding the working flow of a fullstack project. Using NextJS 13, next-intl, Firebase,..."
-              link="https://stream-music-fe-dolphin.vercel.app/"
-              type="Group Project"
-              img={project4}
-              github="https://github.com/kyle41io/StreamMusicFE"
+              title="Entrance Test"
+              summary="An application so that candidates can check their competencies when applying to the company. Done using NextJS, EFFCore, PostgreSQL,... 
+            ( Admin: kien@gmail.com Password: Kien@123 )."
+              link="/"
+              type="Featured Project"
+              img={project1}
+              github="https://github.com/kyle41io/EntranceTest_FE"
             />
           </div>
         </div>
