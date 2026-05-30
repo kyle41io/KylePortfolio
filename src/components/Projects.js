@@ -4,7 +4,7 @@ import AnimatedText from "./AnimatedText";
 import { Link } from "react-scroll";
 import Image from "next/image";
 import { GithubIcon } from "./Icons";
-import project1 from "../../public/images/projects/PyEz-Learning.png";
+import project1 from "../../public/images/projects/PyEz-learning.png";
 import project2 from "../../public/images/projects/Multiform_Vue.jpeg";
 import project3 from "../../public/images/projects/React_Audio.jpeg";
 import project4 from "../../public/images/projects/Stream_Music.jpeg";
