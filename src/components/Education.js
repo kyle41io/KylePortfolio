@@ -41,7 +41,7 @@ const Education = () => {
         {/* <motion.div style={{scaleY: scrollYProgress}} className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top'/> */}
 
         <ul className='w-full flex flex-col items-start justify-between ml-10 md:ml-5 sm:ml-2'>
-          <EdDetails type="Computer Engineering" time="2019 - Present"  place="Hanoi University of Science and Technology (HUST)" />
+          <EdDetails type="Computer Engineering" time="8/2019 - 5/2024"  place="Hanoi University of Science and Technology (HUST)" />
         </ul>        
 
       </div>  

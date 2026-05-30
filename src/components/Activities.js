@@ -17,6 +17,7 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
         initial={{ y: 50 }}
         whileInView={{ y: 0 }}
         transition={{ duration: 0.5, type: "spring" }}
+        className="w-full"
       >
         <h3 className="capitalize font-bold text-2xl text-dark dark:text-light">
           {position}&nbsp;
@@ -67,10 +68,18 @@ const Experience = () => {
             <Details
               position="Front-end Developer"
               company="MOR Software"
-              companyLink="https://morsoftware.com/"
+              companyLink="https://morsoftware.com"
               time="9/2023 - 12/2023"
               address="Nam Tu Liem, Ha Noi"
               work="Learing deeply about JavaScript, React and framework: NextJS, Vue. Join the company projects with the front-end developer position"
+            />
+            <Details
+              position="Software Engineer"
+              company="LYSA"
+              companyLink="https://lysa-company.com"
+              time="1/2024 - Present"
+              address="Hoan Kiem, Ha Noi"
+              work="Contribute to OWORK OCI - a French ERP system using Odoo, JS, Python, ... Learned about the software development process in a real-world project. Worked with French team, communicated in English"
             />
           </ul>
         </div>

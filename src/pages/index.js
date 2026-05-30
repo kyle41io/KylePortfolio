@@ -43,7 +43,7 @@ export default function Home() {
               </p>
               <div className="flex items-center self-start mt-2 md:self-center">
                 <MotionLink
-                  href="/CV_Kyle_2023.pdf"
+                  href="/CV_Kyle_2026.pdf"
                   target={"_blank"}
                   className="flex items-center bg-[#1E3A8A] text-yellow-200  p-2 px-4 rounded-lg text-lg font-semibold hover:bg-light"
                   whileHover={{

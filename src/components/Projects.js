@@ -4,7 +4,7 @@ import AnimatedText from "./AnimatedText";
 import { Link } from "react-scroll";
 import Image from "next/image";
 import { GithubIcon } from "./Icons";
-import project1 from "../../public/images/projects/EntranceTest_Pj.jpeg";
+import project1 from "../../public/images/projects/PyEz-Learning.png";
 import project2 from "../../public/images/projects/Multiform_Vue.jpeg";
 import project3 from "../../public/images/projects/React_Audio.jpeg";
 import project4 from "../../public/images/projects/Stream_Music.jpeg";
@@ -31,7 +31,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
             src={img}
             alt={title}
             className="w-full h-auto"
-            whileHover={{ scale: 1.05 }}
+            whileHover={{ scale: 1.1 }}
             priority
             sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 50vw"
           />
@@ -159,13 +159,13 @@ const Projects = () => {
           </div>
           <div className="col-span-12">
             <FeaturedProject
-              title="Entrance Test"
+              title="PyEz learning"
               summary="An application so that candidates can check their competencies when applying to the company. Done using NextJS, EFFCore, PostgreSQL,... 
             ( Admin: kien@gmail.com Password: Kien@123 )."
-              link="/"
+              link="https://pyez-learning.onrender.com/"
               type="Featured Project"
               img={project1}
-              github="https://github.com/kyle41io/EntranceTest_FE"
+              github="https://github.com/kyle41io/PyEz-Learning"
             />
           </div>
         </div>
