@@ -47,7 +47,7 @@ const Experience = () => {
 
   return (
     <>
-      <div id="activities" className="my-64">
+      <div id="experience" className="my-64">
         <AnimatedText text="Experience" className="mb-16" />
         <div ref={ref} className="w-[75%] mx-auto relative">
           {/* <motion.div
@@ -62,8 +62,7 @@ const Experience = () => {
               companyLink="https://kpim.vn"
               time="3/2023 - 9/2023"
               address="Tay Ho, Ha Noi"
-              work="The begining period, I participated in the company's intern training program, analyzed system design and built my own idea projects based on 2 development kinds (MS low-code Power Apps and code). 
-           Then I joined to contribute to the company product. I was responsible for building RestFul API and Unit testing for the back-end of the E-learning system"
+              work={"Analyzed system design and built own idea projects using Microsoft Power Apps and code-based development.\n Joined to contribute to the company product,responsible for building RestFul API and Unit testing for the back-end of the E-learning system"}
             />
             <Details
               position="Front-end Developer"

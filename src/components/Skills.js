@@ -52,7 +52,7 @@ const Skills = () => {
             transition: { duration: 1.5, repeat: Infinity },
           }}
         >
-          Developer
+          Engineer
         </motion.div>
         <Skill logo={<ReactLogo />} name="React Native" x="-8vw" y="-11vw" />
         <Skill logo={<GitLogo />} name="Git" x="-20vw" y="0vw" />

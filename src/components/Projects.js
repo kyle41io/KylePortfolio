@@ -5,9 +5,9 @@ import { Link } from "react-scroll";
 import Image from "next/image";
 import { GithubIcon } from "./Icons";
 import project1 from "../../public/images/projects/PyEz-learning.png";
-import project2 from "../../public/images/projects/Multiform_Vue.jpeg";
+import project2 from "../../public/images/projects/SiteDoc_AI.png";
 import project3 from "../../public/images/projects/React_Audio.jpeg";
-import project4 from "../../public/images/projects/Stream_Music.jpeg";
+import project4 from "../../public/images/projects/Music_Restaurant.png";
 
 import { motion } from "framer-motion";
 
@@ -51,7 +51,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
             </h2>
           </a>
 
-          <p className="my-2 font-medium text-dark dark:text-light ">
+          <p className="my-2 font-medium text-dark dark:text-light whitespace-pre-line">
             {summary}
           </p>
           <div className="mt-2 flex items-center">
@@ -131,21 +131,21 @@ const Projects = () => {
         <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0 ">
           <div className="col-span-12">
             <FeaturedProject
-              title="Stream Music"
-              summary="A full stack project, work with my partner. But at the final period, the back-end developer was not finish the job so for now just review the front-end please. This help to understanding the working flow of a fullstack project. Using NextJS 13, next-intl, Firebase,..."
-              link="https://stream-music-fe-dolphin.vercel.app/"
+              title="Music Restaurant"
+              summary={"A full-stack music streaming and playlist management application.\nTechnologies: NextJS, Tailwind CSS, Express, PostgreSQL, Vercel, Cloudinary, YouTube API, JWT, Swagger"}
+              link="https://music-restaurant-fe.vercel.app/"
               type="Group Project"
               img={project4}
-              github="https://github.com/kyle41io/StreamMusicFE"
+              github="https://github.com/kyle41io/MusicRestaurantFE"
             />
           </div>
           <div className="col-span-6 md:col-span-12">
             <Project
-              title="MultiForm Vue"
-              link="https://multi-form-vue.vercel.app/"
+              title="SiteDoc AI"
+              link="https://site-doc-ai.vercel.app/"
               type="Learning Project"
               img={project2}
-              github="https://github.com/kyle41io/MultiFormVue"
+              github="https://github.com/kyle41io/SiteDoc-AI"
             />
           </div>
           <div className="col-span-6 md:col-span-12">
@@ -160,9 +160,8 @@ const Projects = () => {
           <div className="col-span-12">
             <FeaturedProject
               title="PyEz learning"
-              summary="An application so that candidates can check their competencies when applying to the company. Done using NextJS, EFFCore, PostgreSQL,... 
-            ( Admin: kien@gmail.com Password: Kien@123 )."
-              link="https://pyez-learning.onrender.com/"
+              summary={"A multi-functional learning application inspire students by using reward points, games, and online competitions.\nTechnologies: Django, PostgreSQL/Neon, Google OAuth2, Django Allauth, Cloudinary, PyMuPDF, OpenAI API."}
+              link="https://py-ez-learning.vercel.app/"
               type="Featured Project"
               img={project1}
               github="https://github.com/kyle41io/PyEz-Learning"
