@@ -36,10 +36,7 @@ export default function Home() {
               xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <p className="my-4 text-base md:text-sm font-medium ">
-                As a fresher in web development, I&#39;m passionate about
-                creating dynamic and user-friendly websites. From front-end
-                design to back-end functionality. Explore my portfolio to see my
-                latest projects and skills in action.
+                {"I'm a Software Engineer with 4+ years of experience building full-stack web apps, ERP platforms, REST APIs, integrations, automated tests, and AI-powered workflows. Strong in Node.js, React, ASP.NET, Django, SQL, CI/CD, OpenAI/Claude API.\nI bring discipline, logical thinking, and a team mindset to deliver reliable software."}
               </p>
               <div className="flex items-center self-start mt-2 md:self-center">
                 <MotionLink
