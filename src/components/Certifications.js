@@ -38,7 +38,7 @@ const CertificationCard = ({ title, image, link }) => {
 const Certifications = () => {
   return (
     <div
-      id="certifications"
+      id="certs"
       className="w-full mb-16 flex flex-col items-center justify-center dark:text-light"
     >
       <Layout>

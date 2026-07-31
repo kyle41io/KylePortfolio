@@ -142,7 +142,7 @@ const Projects = () => {
           <div className="col-span-6 md:col-span-12">
             <Project
               title="SiteDoc AI"
-              link="https://site-doc-ai.vercel.app/"
+              link="https://sitedoc-ai.onrender.com/"
               type="Learning Project"
               img={project2}
               github="https://github.com/kyle41io/SiteDoc-AI"
