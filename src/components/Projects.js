@@ -6,7 +6,7 @@ import Image from "next/image";
 import { GithubIcon } from "./Icons";
 import project1 from "../../public/images/projects/PyEz-learning.png";
 import project2 from "../../public/images/projects/SiteDoc_AI.png";
-import project3 from "../../public/images/projects/React_Audio.jpeg";
+import project3 from "../../public/images/projects/Interview-Prep.png";
 import project4 from "../../public/images/projects/Music_Restaurant.png";
 
 import { motion } from "framer-motion";
@@ -25,7 +25,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
         <a
           href={link}
           target="_blank"
-          className="ml-7 lg:ml-4 sm:ml-1 w-2/5 lg:w-full cursor-pointer overflow-hidden rounded-lg"
+          className="ml-7 lg:ml-4 sm:ml-1 w-2/5 lg:w-full cursor-pointer overflow-hidden rounded-lg border border-dark/5 bg-[#f8f8f8] p-2"
         >
           <MotionImage
             src={img}
@@ -74,13 +74,13 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
 
 const Project = ({ type, title, img, link, github }) => {
   return (
-    <article className="w-[90%] flex flex-col items-center justify-between rounded-2xl border border-solid border-dark dark:border-light bg-light dark:bg-dark p-6 relative shadow-2xl ml-5 sm:ml-2 rounded-br-2xl">
+    <article className="group w-[90%] flex flex-col items-center justify-between rounded-2xl border border-solid border-dark dark:border-light bg-light dark:bg-dark p-6 relative shadow-2xl ml-5 sm:ml-2 rounded-br-2xl">
       <div className="absolute top-0 -right-3 -z-10 w-[102%] sm:w-[102.5%] h-[103%] rounded-[2rem] bg-dark dark:bg-light rounded-br-3xl" />
 
       <a
         href={link}
         target="_blank"
-        className="ml-2 sm:ml-1 w-full cursor-pointer overflow-hidden rounded-lg"
+        className="ml-2 sm:ml-1 w-full cursor-pointer overflow-hidden rounded-lg border border-dark/5 bg-[#f8f8f8] p-2"
       >
         <MotionImage
           src={img}
@@ -132,11 +132,11 @@ const Projects = () => {
           <div className="col-span-12">
             <FeaturedProject
               title="Music Restaurant"
-              summary={"A full-stack music streaming and playlist management application.\nTechnologies: NextJS, Tailwind CSS, Express, PostgreSQL, Vercel, Cloudinary, YouTube API, JWT, Swagger"}
-              link="https://music-restaurant-fe.vercel.app/"
-              type="Group Project"
-              img={project4}
-              github="https://github.com/kyle41io/MusicRestaurantFE"
+              summary={"Full-stack learning platform with structured study tracks, spaced-repetition practice, progress analytics and AI-assisted coaching, running entirely on AWS serverless infrastructure.\nTechnologies: AWS (Lambda, API Gateway, DynamoDB, S3, CloudFront...), Terraform, NestJS, Supabase"}
+              link="https://dfa1tc1hrmb4c.cloudfront.net/"
+              type="Featured Project"
+              img={project3}
+              github="https://github.com/kyle41io/Interview-Prepare"
             />
           </div>
           <div className="col-span-6 md:col-span-12">
@@ -150,11 +150,11 @@ const Projects = () => {
           </div>
           <div className="col-span-6 md:col-span-12">
             <Project
-              title="React Audio"
-              link="https://react-audio-wheat.vercel.app"
+              title="Music Restaurant"
+              link="https://music-restaurant-fe.vercel.app/"
               type="Learning Project"
-              img={project3}
-              github="https://github.com/kyle41io/ReactAudio"
+              img={project4}
+              github="https://github.com/kyle41io/MusicRestaurantFE"
             />
           </div>
           <div className="col-span-12">

@@ -1,5 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
+import AWSLogo from "./icons/AWSLogo";
+import NodeJSLogo from "./icons/NodeJSLogo";
 import ReactLogo from "./icons/ReactLogo";
 import TailwindLogo from "./icons/TailwindLogo";
 import DotNetLogo from "./icons/DotNetLogo";
@@ -7,7 +9,6 @@ import GitLogo from "./icons/GitLogo";
 import PostgreLogo from "./icons/PostgreLogo";
 import VueLogo from "./icons/VueLogo";
 import NextLogo from "./icons/NextLogo";
-import TypeLogo from "./icons/TypeLogo";
 import AILogo from "./icons/AILogo";
 import DjangoLogo from "./icons/DjangoLogo";
 
@@ -54,14 +55,14 @@ const Skills = () => {
         >
           Engineer
         </motion.div>
-        <Skill logo={<ReactLogo />} name="React Native" x="-8vw" y="-11vw" />
+        <Skill logo={<AWSLogo />} name="AWS" x="-8vw" y="-11vw" />
         <Skill logo={<GitLogo />} name="Git" x="-20vw" y="0vw" />
         <Skill logo={<DjangoLogo />} name="Django" x="14vw" y="2vw" />
         <Skill logo={<ReactLogo />} name="ReactJS" x="1vw" y="12.5vw" />
         <Skill logo={<NextLogo />} name="NextJS" x="-24vw" y="-15vw" />
         <Skill logo={<AILogo />} name="AI" x="20vw" y="-12vw" />
         <Skill logo={<TailwindLogo />} name="TailwindCSS" x="-28vw" y="12vw" />
-        <Skill logo={<TypeLogo />} name="TypeScript" x="35vw" y="-5vw" />
+        <Skill logo={<NodeJSLogo />} name="NodeJS" x="35vw" y="-5vw" />
         <Skill logo={<PostgreLogo />} name="PostgreSQL" x="22vw" y="16vw" />
         <Skill logo={<VueLogo />} name="VueJS" x="2vw" y="-17vw" />
         <Skill logo={<DotNetLogo />} name=".NET" x="-10vw" y="20vw" />

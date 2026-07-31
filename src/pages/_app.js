@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import About from "@/components/About";
 import ToTop from "@/components/ToTop";
 import Experience from "@/components/Activities";
+import Certifications from "@/components/Certifications";
 import Projects from "@/components/Projects";
 import "@/styles/globals.css";
 
@@ -43,6 +44,7 @@ export default function App({ Component, pageProps }) {
         <About />
         <Experience />
         <Projects />
+        <Certifications />
         {scrollPosition > 300 && <ToTop />}
         <Footer />
       </main>
