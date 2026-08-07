@@ -131,9 +131,9 @@ const Projects = () => {
         <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0 ">
           <div className="col-span-12">
             <FeaturedProject
-              title="Music Restaurant"
+              title="Interview Prepare"
               summary={"Full-stack learning platform with structured study tracks, spaced-repetition practice, progress analytics and AI-assisted coaching, running entirely on AWS serverless infrastructure.\nTechnologies: AWS (Lambda, API Gateway, DynamoDB, S3, CloudFront...), Terraform, NestJS, Supabase"}
-              link="https://dfa1tc1hrmb4c.cloudfront.net/"
+              link="https://d1lucl9jnrq3lh.cloudfront.net/"
               type="Featured Project"
               img={project3}
               github="https://github.com/kyle41io/Interview-Prepare"
@@ -142,7 +142,7 @@ const Projects = () => {
           <div className="col-span-6 md:col-span-12">
             <Project
               title="SiteDoc AI"
-              link="https://sitedoc-ai.onrender.com/"
+              link="https://d2xl7vltnylr3o.cloudfront.net/"
               type="Learning Project"
               img={project2}
               github="https://github.com/kyle41io/SiteDoc-AI"
