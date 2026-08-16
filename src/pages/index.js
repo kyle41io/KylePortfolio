@@ -36,11 +36,11 @@ export default function Home() {
               xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <p className="my-4 text-base md:text-sm font-medium ">
-                {"I'm a Software Engineer with 4+ years of experience building full-stack web apps, ERP platforms, REST APIs, integrations, automated tests, and AI-powered workflows. Strong in Node.js, React, ASP.NET, Django, SQL, CI/CD, OpenAI/Claude API.\nI bring discipline, logical thinking, and a team mindset to deliver reliable software."}
+                {"I'm a Software Engineer with 4 years of experience building full-stack web apps, multi-tenant ERP platforms, REST APIs, AWS serverless microservices, automated tests, and AI-powered workflows.\nStrong in Node.js/NestJS, React/Next.js, SQL, AWS, CI/CD, Playwright, OpenAI/Claude API. AWS SAA certified.\nI bring discipline, logical thinking, and a team mindset to deliver reliable software."}
               </p>
               <div className="flex items-center self-start mt-2 md:self-center">
                 <MotionLink
-                  href="/CV_NguyenKien_2026.pdf"
+                  href="/CV_NguyenKien_SWE.pdf"
                   target={"_blank"}
                   className="flex items-center bg-[#1E3A8A] text-yellow-200  p-2 px-4 rounded-lg text-lg font-semibold hover:bg-light"
                   whileHover={{

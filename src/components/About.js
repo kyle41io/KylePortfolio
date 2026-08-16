@@ -43,13 +43,12 @@ const About = () => {
               - Hi, I&#39;m Kyle Nguyen, a software engineer based in Hanoi with 4+ years of experience
               building web applications. I&#39;ve worked across the stack — from React and Node.js on
               the front end to ASP.NET, Django, and Python on the back end — across multiple
-              companies and real-world products.
+              companies, real-world products, and increasingly on AWS.
             </p>
             <p className='font-medium text-dark md:text-center sm:text-xs dark:text-light my-4'>
               - I bring discipline and strong logical thinking to everything I build. I care about
               writing clean, maintainable code and I&#39;m always looking to improve — whether through
-              code reviews, new frameworks, or courses. Recently I completed CS50x from Harvard and
-              earned a certificate in Building with the Claude API from Anthropic.
+              code reviews, new frameworks, or courses. Recently I completed CS50x from Harvard, earned a certificate in Building with the Claude API from Anthropic, and the AWS Solutions Architect – Associate.
             </p>
             <p className='font-medium text-dark md:text-center sm:text-xs dark:text-light'>
               - I enjoy working in collaborative teams where ideas are shared openly. I approach every
