@@ -6,10 +6,20 @@ import Image from "next/image";
 import cs50xImage from "../../public/images/certs/CS50x.png";
 import claudeImage from "../../public/images/certs/ClaudeCode.png";
 import awsSaaImage from "../../public/images/certs/AWS-SAA-C03.png";
+import toeicImage from "../../public/images/certs/TOEIC.png";
+
+const Wrapper = ({ link, children }) =>
+  link ? (
+    <a href={link} target="_blank" rel="noopener noreferrer" className="block">
+      {children}
+    </a>
+  ) : (
+    <div className="block">{children}</div>
+  );
 
 const CertificationCard = ({ title, image, link }) => {
   return (
-    <a href={link} target="_blank" rel="noopener noreferrer" className="block">
+    <Wrapper link={link}>
       <article className="group w-[90%] flex flex-col items-center justify-between rounded-2xl border border-solid border-dark dark:border-light bg-light dark:bg-dark p-6 relative shadow-2xl ml-5 sm:ml-2 rounded-br-2xl">
         <div className="absolute top-0 -right-3 -z-10 w-[102%] sm:w-[102.5%] h-[103%] rounded-[2rem] bg-dark dark:bg-light rounded-br-3xl" />
 
@@ -26,15 +36,17 @@ const CertificationCard = ({ title, image, link }) => {
         </div>
 
         <div className="w-full flex items-center justify-between mt-4 gap-4">
-          <h2 className="my-2 w-full text-left text-3xl md:text-2xl font-bold text-dark dark:text-light whitespace-nowrap">
+          <h2 className="my-2 w-full text-left text-3xl xl:text-2xl lg:text-xl md:text-2xl xs:text-xl font-bold text-dark dark:text-light">
             {title}
           </h2>
-          <span className="shrink-0 rounded-lg bg-myblue dark:bg-primaryDark text-yellow-200 dark:text-dark/80 p-1 sm:px-2 px-4 text-lg sm:text-base font-semibold">
-            Visit
-          </span>
+          {link && (
+            <span className="shrink-0 rounded-lg bg-myblue dark:bg-primaryDark text-yellow-200 dark:text-dark/80 p-1 sm:px-2 px-4 text-lg sm:text-base font-semibold">
+              Visit
+            </span>
+          )}
         </div>
       </article>
-    </a>
+    </Wrapper>
   );
 };
 
@@ -64,10 +76,13 @@ const Certifications = () => {
           </div>
           <div className="col-span-6 md:col-span-12">
             <CertificationCard
-              title="AWS SAA-C03"
+              title="AWS SAA‑C03"
               image={awsSaaImage}
               link="https://www.credly.com/badges/07ca0c16-5d91-4c8d-95a4-647348c17540/public_url"
             />
+          </div>
+          <div className="col-span-6 md:col-span-12">
+            <CertificationCard title="TOEIC 845" image={toeicImage} />
           </div>
         </div>
       </Layout>
