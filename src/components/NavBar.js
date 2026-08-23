@@ -95,7 +95,7 @@ const NavBar = () => {
         </nav>
         <nav className="flex items-center justify-center flex-wrap">
           <motion.a
-            href="https://www.facebook.com/kinekine41"
+            href="https://www.facebook.com/kyle41io"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.8 }}
@@ -113,7 +113,7 @@ const NavBar = () => {
             <GithubIcon />
           </motion.a>
           <motion.a
-            href="https://www.linkedin.com/in/kyleincontact"
+            href="https://www.linkedin.com/in/kyle41io"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.8 }}
@@ -179,7 +179,7 @@ const NavBar = () => {
           </nav>
           <nav className="flex items-center justify-center flex-wrap mt-4">
             <motion.a
-              href="https://www.facebook.com/kinekine41"
+              href="https://www.facebook.com/kyle41io"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.8 }}
@@ -197,7 +197,7 @@ const NavBar = () => {
               <GithubIcon />
             </motion.a>
             <motion.a
-              href="https://www.linkedin.com/in/kyleincontact"
+              href="https://www.linkedin.com/in/kyle41io"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.8 }}
